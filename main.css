@@ -1,14 +1,54 @@
 body {
     background-color: rgb(187, 236, 252);
+    opacity: 0,6;
   }
   
   h1 {
     font-family:comic ;
-    color: rgb(2, 5, 179);
+    color: #000399;
     text-align: center;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
   }
   
   p {
     font-family: comic;
     font-size: 20px;
+    color: #000399;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #81c0fa;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+
+  li a:hover { 
+    background-color: #67a4ffbe; /*muda a cor quando passa o mouse */
+  }
+
+  .active { /*muda a cor para indicar qual pag tá ativa */
+    background-color: #4e9bff;
+  }
+
+  ul {
+    border: 1px solid #000000a6; 
+    background-color: #91e1f5;
+  }
+  
+  li a {
+    color: #000399;
   }
