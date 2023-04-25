@@ -2,7 +2,7 @@ body {
     background-color: rgb(187, 236, 252);
     opacity: 0,6;
   }
-  
+
   h1 {
     font-family:comic ;
     color: #000399;
@@ -17,38 +17,65 @@ body {
   }
 
 
-  ul {
-    list-style-type: none;
+
+/* barra de navegação*/
+  nav ul {
+    list-style-type: none; /*remove os marcadores de lista*/
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #81c0fa;
+    background-color: #7adbf3;
+    font-family: arial;
+    font-weight: bold;
   }
 
   li {
-    float: left;
+    float: left; /*para flutuar um do lado do outro*/
   }
   
   li a {
-    display: block;
+    display: inline-block; /*remove a quebra de linhas*/
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
   }
 
   li a:hover { 
-    background-color: #67a4ffbe; /*muda a cor quando passa o mouse */
+    background-color: #2473e9be; /*muda a cor quando passa o mouse */
   }
 
-  .active { /*muda a cor para indicar qual pag tá ativa */
-    background-color: #4e9bff;
+  .active { /*muda a cor para indicar qual pag tá ativa*/
+    background-color: #207cf5;
   }
 
   ul {
     border: 1px solid #000000a6; 
-    background-color: #91e1f5;
+    background-color: #4bb8d3;
   }
   
   li a {
     color: #000399;
+  }
+
+  img {
+    border-radius: 8px;
+  }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px){
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
   }
