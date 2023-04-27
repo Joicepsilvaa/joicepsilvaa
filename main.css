@@ -1,24 +1,33 @@
 body {
     background-color: rgb(187, 236, 252);
     opacity: 0,6;
+
   }
 
+  .tudo{
+    font-family: 'Poppins', sans-serif;
+  }
   h1 {
-    font-family:comic ;
+    font-family: comic;
     color: #000399;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
   }
   
   p {
+    text-align: center;
     font-family: comic;
     font-size: 20px;
-    color: #000399;
+    color: #000005;
+  }
+
+  .image {
+    text-align: center;
   }
 
 
-
 /* barra de navegação*/
+
   nav ul {
     list-style-type: none; /*remove os marcadores de lista*/
     margin: 0;
@@ -44,10 +53,6 @@ body {
     background-color: #2473e9be; /*muda a cor quando passa o mouse */
   }
 
-  .active { /*muda a cor para indicar qual pag tá ativa*/
-    background-color: #207cf5;
-  }
-
   ul {
     border: 1px solid #000000a6; 
     background-color: #4bb8d3;
@@ -58,25 +63,18 @@ body {
   }
 
   img {
-    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+
   }
 
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px){
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px){
-    .responsive {
-      width: 100%;
-    }
+  .final {
+    margin: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.github {
+    color: rgb(0, 3, 41);
   }
 
