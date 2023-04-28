@@ -15,8 +15,8 @@ body {
   }
   
   p {
-    text-align: center;
-    font-family: comic;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #000005;
   }
