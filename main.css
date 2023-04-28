@@ -7,6 +7,10 @@ body {
   .tudo{
     font-family: 'Poppins', sans-serif;
   }
+
+  .reader{
+    text-align: center;
+  }
   h1 {
     font-family: comic;
     color: #000399;
